@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  gsa:
+    image: ${DOCKER_REGISTRY}gsa
+    build:
+      context: .
+      dockerfile: GSA/Dockerfile
